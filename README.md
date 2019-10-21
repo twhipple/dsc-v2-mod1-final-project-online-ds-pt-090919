@@ -16,6 +16,7 @@ In this repo, you will find the main Jupyter notebook labeled 'student.ipynb' wh
 * **LICENSE.md** -  The License file containing rights for me to work on this
 * **CONTRIBUTING.md** -  The Contributing file showing all those who helped
 * **Presentation.pdf** -  The non-technical slide show of my results
+* **video_link** - The link to the Google Slide presentation
 
 
 ## The Dataset
@@ -46,15 +47,15 @@ The King County Dataset was presented to me as an introductory project to showca
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 # Load all the libraries I know.
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-%matplotlib inline
-import scipy.stats as stats
-import statsmodels.api as sm
-from statsmodels.formula.api import ols
-import folium
+* import numpy as np
+* import pandas as pd
+* import seaborn as sns
+* import matplotlib.pyplot as plt
+* %matplotlib inline
+* import scipy.stats as stats
+* import statsmodels.api as sm
+* from statsmodels.formula.api import ols
+* import folium
 
 
 # Column Names and Cleaning Techniques
